@@ -26,7 +26,7 @@ def main(self, cookie, url, config):
 	if max == 0:
 		exit("\n\033[0;91mRequired, can't empty.\033[0m")
 
-	url_search = url+'/groups/'+ask/members/
+	url_search = url+'/groups/'+ask'/members/
 
 	statusStop = False
 	output = 'dump/'+ask.replace(' ', '_')+'.json'.strip()
